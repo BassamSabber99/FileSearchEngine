@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Categories>
+    <Name>Sports</Name>
+    <Keywords>football</Keywords>
+    <Keywords>tennis</Keywords>
+    <Keywords>basketball</Keywords>
+    <Keywords>boxing</Keywords>
+    <Keywords>horsing</Keywords>
+    <Keywords>handball</Keywords>
+    <Keywords>volleyball</Keywords>
+  </Categories>
+  <Categories>
+    <Name>Animals</Name>
+    <Keywords>dog</Keywords>
+    <Keywords>cat</Keywords>
+    <Keywords>cow</Keywords>
+    <Keywords>lion</Keywords>
+    <Keywords>tiger</Keywords>
+    <Keywords>fish</Keywords>
+    <Keywords>ant</Keywords>
+  </Categories>
+  <Categories>
+    <Name>Human_Names</Name>
+    <Keywords>ahmed</Keywords>
+    <Keywords>gamal</Keywords>
+    <Keywords>hisham</Keywords>
+    <Keywords>bassam</Keywords>
+    <Keywords>rami</Keywords>
+    <Keywords>sara</Keywords>
+    <Keywords>nora</Keywords>
+    <Keywords>lara</Keywords>
+    <Keywords>yara</Keywords>
+  </Categories>
+  <Categories>
+    <Name>Movie</Name>
+    <Keywords>saw</Keywords>
+    <Keywords>avengers</Keywords>
+    <Keywords>haksaw</Keywords>
+    <Keywords>venom</Keywords>
+    <Keywords>catwoman</Keywords>
+    <Keywords>zara</Keywords>
+  </Categories>
+</Table>

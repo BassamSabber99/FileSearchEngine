@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <File>
+    <FileName>Gamal</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\DebugGamal.txt</Path>
+    <CategoryName>Sports</CategoryName>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>Bassam</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\DebugBassam.txt</Path>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>hisham</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debughisham.txt</Path>
+    <CategoryName>Sports</CategoryName>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>Ahmed</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\DebugAhmed.txt</Path>
+    <CategoryName>Sports</CategoryName>
+  </File>
+  <File>
+    <FileName>veg</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debugveg.txt</Path>
+    <CategoryName>Sports</CategoryName>
+  </File>
+  <File>
+    <FileName>sdfkjbvdfskhm</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debugsdfkjbvdfskhm.txt</Path>
+    <CategoryName>Sports</CategoryName>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>none</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debugnone.txt</Path>
+    <CategoryName>Sports</CategoryName>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>kk</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debugkk.txt</Path>
+    <CategoryName>Sports</CategoryName>
+  </File>
+  <File>
+    <FileName>v</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debugv.txt</Path>
+    <CategoryName>Sports</CategoryName>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>cc</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debugcc.txt</Path>
+    <CategoryName>Sports</CategoryName>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>File1</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\DebugFile1.txt</Path>
+    <CategoryName>Sports</CategoryName>
+    <CategoryName>Animals</CategoryName>
+    <CategoryName>Human_Names</CategoryName>
+  </File>
+  <File>
+    <FileName>AAA</FileName>
+    <Path>\AAA.txt</Path>
+    <CategoryName>Sports</CategoryName>
+  </File>
+  <File>
+    <FileName>vcx</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debugvcx.txt</Path>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>vcx</FileName>
+    <Path>G:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debug\vcx.txt</Path>
+    <CategoryName>Movie</CategoryName>
+  </File>
+  <File>
+    <FileName>dsdas</FileName>
+    <Path>C:\Bassam\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debug\dsdas.txt</Path>
+    <CategoryName>Movie</CategoryName>
+  </File>
+</Table>
