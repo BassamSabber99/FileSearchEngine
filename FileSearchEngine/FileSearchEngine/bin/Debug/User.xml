@@ -28,4 +28,25 @@
     <CategoryName>Islamic</CategoryName>
     <CategoryName>Series</CategoryName>
   </File>
+  <File>
+    <FileName>f4</FileName>
+    <Path>C:\Gamal Elsawy\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debug\f4.txt</Path>
+    <CategoryName>Sports</CategoryName>
+  </File>
+  <File>
+    <FileName>f1</FileName>
+    <Path>C:\Gamal Elsawy\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debug\f1.txt</Path>
+    <CategoryName>Sports</CategoryName>
+  </File>
+  <File>
+    <FileName>f6</FileName>
+    <Path>C:\Gamal Elsawy\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debug\f6.txt</Path>
+    <CategoryName>Sports</CategoryName>
+  </File>
+  <File>
+    <FileName>file1</FileName>
+    <Path>C:\Gamal Elsawy\Projects\Files Project\FileSearchEngine\FileSearchEngine\bin\Debug\file1.txt</Path>
+    <CategoryName>Sports</CategoryName>
+    <CategoryName>Animals</CategoryName>
+  </File>
 </Table>

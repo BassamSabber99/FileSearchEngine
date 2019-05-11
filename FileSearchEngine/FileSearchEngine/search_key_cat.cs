@@ -62,7 +62,7 @@ namespace FileSearchEngine
                 if (child[0].InnerText == name)
                 {
                     check = true;
-                    for (int j = 0; j < child.Count - 2; j++)
+                    for (int j = 0; j < child.Count - 1; j++)
                     {
                         s += child[j + 1].InnerText + ",";
 

@@ -161,4 +161,47 @@
     <LineNumber>4</LineNumber>
     <Counter>1</Counter>
   </Log>
+  <Log>
+    <CategoryName>Sports</CategoryName>
+    <KeywordName>football</KeywordName>
+    <FileName>f1</FileName>
+    <LineNumber>1</LineNumber>
+    <Counter>2</Counter>
+  </Log>
+  <Log>
+    <CategoryName>Sports</CategoryName>
+    <KeywordName>tennis</KeywordName>
+    <FileName>f6</FileName>
+    <LineNumber>1</LineNumber>
+    <LineNumber>2</LineNumber>
+    <Counter>2</Counter>
+  </Log>
+  <Log>
+    <CategoryName>Sports</CategoryName>
+    <KeywordName>football</KeywordName>
+    <FileName>file1</FileName>
+    <LineNumber>1</LineNumber>
+    <Counter>1</Counter>
+  </Log>
+  <Log>
+    <CategoryName>Sports</CategoryName>
+    <KeywordName>tennis</KeywordName>
+    <FileName>file1</FileName>
+    <LineNumber>2</LineNumber>
+    <Counter>1</Counter>
+  </Log>
+  <Log>
+    <CategoryName>Animals</CategoryName>
+    <KeywordName>dog</KeywordName>
+    <FileName>file1</FileName>
+    <LineNumber>1</LineNumber>
+    <Counter>1</Counter>
+  </Log>
+  <Log>
+    <CategoryName>Animals</CategoryName>
+    <KeywordName>cat</KeywordName>
+    <FileName>file1</FileName>
+    <LineNumber>2</LineNumber>
+    <Counter>1</Counter>
+  </Log>
 </Table>

@@ -67,3 +67,20 @@ C:\Users\Bassam\Downloads\FileSearchEngine-master\FileSearchEngine\FileSearchEng
 C:\Users\Bassam\Downloads\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.search_cat_file.resources
 C:\Users\Bassam\Downloads\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.search_key_cat.resources
 C:\Users\Bassam\Downloads\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.csproj.GenerateResource.Cache
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\bin\Debug\FileSearchEngine.exe.config
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.exe
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.pdb
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\bin\Debug\FileSearchEngine.exe
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\bin\Debug\FileSearchEngine.pdb
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.csprojResolveAssemblyReference.cache
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.AddCategory.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.AddFile.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.customemessage.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.highlight.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.key_exist.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.Main.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.Properties.Resources.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.Search.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.search_cat_file.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.search_key_cat.resources
+C:\Users\Gamal Elsawy\Desktop\FileSearchEngine-master\FileSearchEngine\FileSearchEngine\obj\Debug\FileSearchEngine.csproj.GenerateResource.Cache

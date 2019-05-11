@@ -40,4 +40,10 @@
     <Keywords>thegoddoctor</Keywords>
     <Keywords>thepunisher</Keywords>
   </Categories>
+  <Categories>
+    <Name>category1</Name>
+    <Keywords>key1</Keywords>
+    <Keywords>key2</Keywords>
+    <Keywords>key3</Keywords>
+  </Categories>
 </Table>

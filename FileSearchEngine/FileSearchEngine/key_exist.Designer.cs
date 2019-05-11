@@ -100,6 +100,7 @@
             this.dgvk.Name = "dgvk";
             this.dgvk.Size = new System.Drawing.Size(460, 192);
             this.dgvk.TabIndex = 9;
+            this.dgvk.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvk_CellContentClick);
             // 
             // back
             // 
@@ -130,11 +131,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe Marker", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SeaGreen;
             this.label3.Location = new System.Drawing.Point(126, 99);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 31);
+            this.label3.Size = new System.Drawing.Size(156, 31);
             this.label3.TabIndex = 30;
             this.label3.Text = "Categories";
             // 

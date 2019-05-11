@@ -73,7 +73,11 @@ namespace FileSearchEngine
             }
             string path = "C:\\"+Environment.UserName.ToString()+"\\Projects\\Files Project\\FileSearchEngine\\FileSearchEngine\\bin\\Debug\\" + filename.Text + ".txt";
 
-
+            if (arr.Length == 0) {
+                customemessage cm = new customemessage("Empty Field!!");
+                cm.ShowDialog();
+                return;
+            }
 
 
             if (!File.Exists("User.xml"))
@@ -195,11 +199,21 @@ namespace FileSearchEngine
                     {
 
                         string sx = sr.ReadLine();
-                        if (sx.Contains(child[x].InnerText.ToString()))
+                        string[] words = sx.Split(' ');
+                        bool q = false;
+                        //if (sx.Contains(child[x].InnerText.ToString()))
+                        for (int w = 0; w < words.Length; w++)
                         {
-                            counter++;
-                            existingLine.Add(line);
+
+                            if (words[w] == child[x].InnerText.ToString())
+                            {
+                                counter++;
+                                q = true;
+
+                            }
+
                         }
+                        if (q) existingLine.Add(line);
                         line++;
 
 

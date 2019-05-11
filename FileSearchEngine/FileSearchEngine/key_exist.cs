@@ -76,8 +76,8 @@ namespace FileSearchEngine
             for(int i = 0; i < nl2.Count; i++)
             {
                 XmlNodeList child2 = nl2[i].ChildNodes;
-                for(int j = 0; j < child2.Count; j++)
-                {
+                //for(int j = 0; j < child2.Count; j++)
+                //{
                     if(child2[0].InnerText.ToString() == val)
                     {
 
@@ -89,7 +89,7 @@ namespace FileSearchEngine
 
                         string linenum = child2[3].Name;
                         string linenumber ="";
-                        for(int k = 3;k < child2.Count; k++)
+                        for(int k = 3;k < child2.Count-1; k++)
                         {
                             linenumber += child2[k].InnerText.ToString()+',';
                         }
@@ -109,8 +109,13 @@ namespace FileSearchEngine
 
                     }
                 }
-            }
+            //}
             
+        }
+
+        private void dgvk_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
