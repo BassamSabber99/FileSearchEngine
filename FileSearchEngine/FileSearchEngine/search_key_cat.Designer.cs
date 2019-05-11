@@ -47,11 +47,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe Marker", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SeaGreen;
             this.label3.Location = new System.Drawing.Point(457, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 31);
+            this.label3.Size = new System.Drawing.Size(142, 31);
             this.label3.TabIndex = 36;
             this.label3.Text = "Keywords";
             // 
@@ -161,11 +161,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe Marker", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SeaGreen;
             this.label2.Location = new System.Drawing.Point(12, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 31);
+            this.label2.Size = new System.Drawing.Size(217, 31);
             this.label2.TabIndex = 31;
             this.label2.Text = "Category Name";
             // 
@@ -181,7 +181,7 @@
             this.catname.LineIdleColor = System.Drawing.Color.Gray;
             this.catname.LineMouseHoverColor = System.Drawing.Color.SeaGreen;
             this.catname.LineThickness = 4;
-            this.catname.Location = new System.Drawing.Point(209, 129);
+            this.catname.Location = new System.Drawing.Point(236, 129);
             this.catname.Margin = new System.Windows.Forms.Padding(4);
             this.catname.Name = "catname";
             this.catname.Size = new System.Drawing.Size(144, 30);

@@ -25,9 +25,7 @@ namespace FileSearchEngine
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            customemessage x , c;
-
-
+            customemessage x , c,p;
             if (catname.Text.Trim()=="" || keywords.Text.Trim() == "")
             {
                c = new customemessage("Empty Field!!");
@@ -35,8 +33,9 @@ namespace FileSearchEngine
                 return;
             }
 
+            
 
-            string name = catname.Text;
+            string name = catname.Text.Trim();
             string[] a = new string[keywords.Lines.Length];
             for (int i = 0; i < keywords.Lines.Length; i++)
                 a[i] = keywords.Lines[i].ToString();
@@ -51,7 +50,7 @@ namespace FileSearchEngine
 
                 wr.WriteStartElement("Categories");
 
-                // wr.WriteAttributeString("Name", name);
+
 
                 wr.WriteStartElement("Name");
                 wr.WriteString(name);
@@ -76,13 +75,27 @@ namespace FileSearchEngine
             }
             else
             {
+                XmlDocument doc0 = new XmlDocument();
+                doc0.Load("Categories.xml");
+                XmlNodeList list = doc0.GetElementsByTagName("Categories");
+                for (int i = 0; i < list.Count; i++)
+                {
+                    XmlNodeList child0 = list[i].ChildNodes;
+                    if (catname.Text.Trim() == child0[0].InnerText)
+                    {
+                        p = new customemessage("Category Is Exist ");
+                        p.Show();
+                        return;
+                    }
+                }
+
                 XmlDocument doc = new XmlDocument();
                 XmlElement cate = doc.CreateElement("Categories");
 
                 XmlElement node = doc.CreateElement("Name");
                 node.InnerText = name;
                 cate.AppendChild(node);
-                //cate.SetAttribute("Name", name);
+
 
 
                 for (int i = 0; i < keywords.Lines.Length; i++)

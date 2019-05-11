@@ -45,7 +45,7 @@ namespace FileSearchEngine
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            customemessage y , c;
+            customemessage y , c , p;
             if (filename.Text.Trim() == "" || catname.Text.Trim() == "" || content.Text.Trim() == "")
             {
                 c = new customemessage("Empty Field!!");
@@ -53,8 +53,9 @@ namespace FileSearchEngine
                 return;
             }
 
+            
 
-            FileStream fs = new FileStream(filename.Text.ToString() + ".txt", FileMode.Append);
+            FileStream fs = new FileStream(filename.Text.ToString().Trim() + ".txt", FileMode.Append);
             StreamWriter sw = new StreamWriter(fs);
             string s;
             //sw.Write(content.Text);
@@ -112,6 +113,20 @@ namespace FileSearchEngine
             }
             else
             {
+
+                XmlDocument doc0 = new XmlDocument();
+                doc0.Load("User.xml");
+                XmlNodeList list = doc0.GetElementsByTagName("File");
+                for (int i = 0; i < list.Count; i++)
+                {
+                    XmlNodeList child0 = list[i].ChildNodes;
+                    if (filename.Text.Trim() == child0[0].InnerText)
+                    {
+                        p = new customemessage("File Name Is Exist ");
+                        p.Show();
+                        return;
+                    }
+                }
                 XmlDocument doc = new XmlDocument();
                 XmlElement cate = doc.CreateElement("File");
                 XmlElement node = doc.CreateElement("FileName");
@@ -265,32 +280,9 @@ namespace FileSearchEngine
                             root.AppendChild(cate);
 
                             doc.Save("HistoryLog.xml");
-                            //XmlElement catem = doc2.CreateElement("Keywords");
-                            //XmlElement node = null;
-                            //for (int w = 0; w < counter; w++)
-                            //{
-                            //    node = doc2.CreateElement("Line");
-                            //    node.InnerText = existingLine[w].ToString();
-                            //    catem.AppendChild(node);
-
-                            //}
-                            //node = doc2.CreateElement("Counter");
-                            //node.InnerText = counter.ToString();
-                            //catem.AppendChild(node);
-
-                            //doc2.Load("Categories.xml");
-                            //XmlElement root = doc2.DocumentElement;
-                            //root.AppendChild(catem);
+                        
                         }
                     }
-
-
-                    //else doc2.Save("Categories.xml");
-
-
-
-
-
 
                     sr.Close();
                 }

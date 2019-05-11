@@ -76,11 +76,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe Marker", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SeaGreen;
             this.label2.Location = new System.Drawing.Point(42, 140);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 31);
+            this.label2.Size = new System.Drawing.Size(146, 31);
             this.label2.TabIndex = 23;
             this.label2.Text = "File Name";
             // 
@@ -96,7 +96,7 @@
             this.filename.LineIdleColor = System.Drawing.Color.Gray;
             this.filename.LineMouseHoverColor = System.Drawing.Color.SeaGreen;
             this.filename.LineThickness = 4;
-            this.filename.Location = new System.Drawing.Point(169, 141);
+            this.filename.Location = new System.Drawing.Point(195, 141);
             this.filename.Margin = new System.Windows.Forms.Padding(4);
             this.filename.Name = "filename";
             this.filename.Size = new System.Drawing.Size(144, 30);
@@ -183,11 +183,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe Marker", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SeaGreen;
             this.label3.Location = new System.Drawing.Point(465, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 31);
+            this.label3.Size = new System.Drawing.Size(156, 31);
             this.label3.TabIndex = 29;
             this.label3.Text = "Categories";
             // 

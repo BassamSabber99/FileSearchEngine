@@ -63,11 +63,19 @@ namespace FileSearchEngine
 
         private void Search_Click(object sender, EventArgs e)
         {
-            XmlDocument doc = new XmlDocument();
-            doc.Load("User.xml");
-            Search search = new Search(doc);
-            search.Show();
-            this.Hide();
+            if (!File.Exists("User.xml"))
+            {
+                return;
+            }
+            else
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("User.xml");
+                Search search = new Search(doc);
+                search.Show();
+                this.Hide();
+            }
+
         }
     }
 }

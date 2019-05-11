@@ -121,7 +121,7 @@
             this.filename.LineIdleColor = System.Drawing.Color.Gray;
             this.filename.LineMouseHoverColor = System.Drawing.Color.SeaGreen;
             this.filename.LineThickness = 4;
-            this.filename.Location = new System.Drawing.Point(155, 81);
+            this.filename.Location = new System.Drawing.Point(164, 82);
             this.filename.Margin = new System.Windows.Forms.Padding(4);
             this.filename.Name = "filename";
             this.filename.Size = new System.Drawing.Size(144, 30);
@@ -132,11 +132,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe Marker", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SeaGreen;
             this.label2.Location = new System.Drawing.Point(11, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 31);
+            this.label2.Size = new System.Drawing.Size(146, 31);
             this.label2.TabIndex = 11;
             this.label2.Text = "File Name";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -145,22 +145,22 @@
             // 
             this.catname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.catname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.catname.Font = new System.Drawing.Font("Trajan Pro 3", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.catname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.catname.FormattingEnabled = true;
             this.catname.Location = new System.Drawing.Point(466, 100);
             this.catname.Name = "catname";
-            this.catname.Size = new System.Drawing.Size(120, 138);
+            this.catname.Size = new System.Drawing.Size(120, 130);
             this.catname.TabIndex = 12;
             this.catname.SelectedIndexChanged += new System.EventHandler(this.catname_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe Marker", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SeaGreen;
             this.label3.Location = new System.Drawing.Point(460, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 31);
+            this.label3.Size = new System.Drawing.Size(156, 31);
             this.label3.TabIndex = 13;
             this.label3.Text = "Categories";
             // 
@@ -178,11 +178,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe Marker", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label4.Location = new System.Drawing.Point(55, 207);
+            this.label4.Location = new System.Drawing.Point(45, 211);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 31);
+            this.label4.Size = new System.Drawing.Size(117, 31);
             this.label4.TabIndex = 15;
             this.label4.Text = "Content";
             // 

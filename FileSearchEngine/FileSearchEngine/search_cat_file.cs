@@ -53,7 +53,7 @@ namespace FileSearchEngine
                 c.ShowDialog();
                 return;
             }
-            string name = filename.Text;
+            string name = filename.Text.Trim();
             XmlDocument doc = new XmlDocument();
             doc.Load("User.xml");
             XmlNodeList list = doc.GetElementsByTagName("File");

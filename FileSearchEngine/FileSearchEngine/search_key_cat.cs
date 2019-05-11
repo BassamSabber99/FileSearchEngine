@@ -50,7 +50,7 @@ namespace FileSearchEngine
                 c.ShowDialog();
                 return;
             }
-            string name = catname.Text;
+            string name = catname.Text.Trim();
             XmlDocument doc = new XmlDocument();
             doc.Load("Categories.xml");
             XmlNodeList list = doc.GetElementsByTagName("Categories");
